@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\n# Exercise One");
         ExerciseOne exerciseOne = new ExerciseOne("Visual", "Nuts");
-        List<String> items = exerciseOne.generateList(15);
+        List<String> items = exerciseOne.generateList(100);
         items.forEach(System.out::println);
 
         System.out.println("\n# Exercise Two");
